@@ -7,7 +7,7 @@ plugins {
 }
 
 version = "0.1"
-group = "com.example"
+group = "au.edu.open"
 
 val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
@@ -58,7 +58,7 @@ micronaut {
     testRuntime("kotest")
     processing {
         incremental(true)
-        annotations("com.example.*")
+        annotations("au.edu.open.*")
     }
 }
 

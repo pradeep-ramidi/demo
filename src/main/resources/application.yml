@@ -1,6 +1,9 @@
 micronaut:
   application:
     name: demo
+  server:
+    netty:
+      log-level: debug
 netty:
   default:
     allocator:

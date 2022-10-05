@@ -1,4 +1,4 @@
-package com.example
+package au.edu.open
 
 import io.micronaut.runtime.Micronaut.*
 import io.swagger.v3.oas.annotations.*
@@ -6,7 +6,7 @@ import io.swagger.v3.oas.annotations.info.*
 
 @OpenAPIDefinition(
     info = Info(
-            title = "demo",
+            title = "oua-micronaut-demo",
             version = "0.0"
     )
 )
